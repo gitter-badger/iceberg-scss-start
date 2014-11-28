@@ -1,0 +1,52 @@
+$brand-primary:          darken(#428bca, 6.5%) !default;
+$brand-success:          #5cb85c !default;
+$brand-info:             #5bc0de !default;
+$brand-warning:          #f0ad4e !default;
+$brand-danger:           #d9534f !default;
+
+// Settings for some of the most global styles.
+
+// Background color for <body>
+$body-bg:                #fff !default;
+
+// Global text color on <body>
+$text-color:             #000 !default;
+
+// Global textual link color
+$link-color:             $brand-primary !default;
+
+// Link hover color set via `darken()` function.
+$link-hover-color:       darken($link-color, 15%) !default;
+
+// Typography
+
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+$font-size-base:         14px !default;
+$font-size-large:        ceil(($font-size-base * 1.25)) !default;
+$font-size-small:        ceil(($font-size-base * 0.85)) !default;
+
+$font-size-h1:           floor(($font-size-base * 2.6)) !default;
+$font-size-h2:           floor(($font-size-base * 2.15)) !default;
+$font-size-h3:           ceil(($font-size-base * 1.7)) !default;
+$font-size-h4:           ceil(($font-size-base * 1.25)) !default;
+$font-size-h5:           $font-size-base !default;
+$font-size-h6:           ceil(($font-size-base * 0.85)) !default;
+
+// Grid
+$width-columns: 		 8.33333333%, 
+						 16.66666667%, 
+						 25%,33.33333333%, 
+						 41.66666667%, 
+						 50%, 
+						 58.33333333%, 
+						 66.66666667%, 
+						 75%,83.33333333%, 
+						 91.66666667%, 
+						 100%; 
+
+$count: 				 1;  // default start increment - invariably!
+
+$row-margin:             -15px;
+$col-padding:            15px;
+$container-padding:      15px;
