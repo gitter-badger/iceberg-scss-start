@@ -1,29 +1,37 @@
 // Create CSS grid columns
 @mixin create-grid-columns($class) {
+    $col : '';
+    @each $i in $width-columns {
+       $col : #{'.col'}-#{$class}-#{$count},#{$col};
+       $count : $count + 1;
+    } 
+    #{$col}{
+      float: left;
+    } $count : 1;
     @each $i in $width-columns {
         .col-#{$class}-#{$count}{
             width: $i;
         }
         $count : $count + 1;
-    }
+    } $count : 1;
     @each $i in $width-columns {
         .col-#{$class}-pull-#{$count}{
             right: $i;
         }
         $count : $count + 1;
-    }
+    } $count : 1;
     @each $i in $width-columns {
         .col-#{$class}-push-#{$count}{
             left: $i;
         }
         $count : $count + 1;
-    }
+    } $count : 1;
     @each $i in $width-columns {
         .col-#{$class}-offset-#{$count}{
             margin-left: $i;
         }
         $count : $count + 1;
-    }
+    } $count : 1;
 }
 
 // Default
