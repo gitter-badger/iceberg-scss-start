@@ -6,14 +6,10 @@ var gulp = require('gulp'),
 	jsmin = require('gulp-jsmin'),
 	concat = require('gulp-concat'),
 	svgo = require('imagemin-svgo'),
-    header = require('gulp-header'),
-    pkg = require('./package.json'),
-    banner = ['/*', ' <%= pkg.name %> - v<%= pkg.version %>', 
-              ' @description <%= pkg.description %>', 
-              ' --------------------', 
-              ' @author <%= pkg.author %>', 
-              ' @link <%= pkg.link %>', 
-              ' */',' '].join('\n');
+  header = require('gulp-header'),
+  pkg = require('./package.json'),
+  banner = ['/*', ' <%= pkg.name %> - v<%= pkg.version %>', ' @description <%= pkg.description %>', 
+            ' --------------------', ' @author <%= pkg.author %>', ' @link <%= pkg.link %>', ' */',' '].join('\n');
 
 gulp.task('scss', function () {
     gulp.src('./src/scss/main.scss')
