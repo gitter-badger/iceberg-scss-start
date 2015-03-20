@@ -1,21 +1,21 @@
 {
-  "name": "iceberg",
-  "version": "0.1.0",
-  "description": "An example module to illustrate the usage of a package.json",
-  "author": "IlyaSuhodolskiy <ilyasuhodolskiy@gmail.com>",
-  "link": "https://github.com/IlyaSuhodolskiy",
-  "devDependencies": {
-    "gulp": "^3.8.11",
-    "gulp-autoprefixer": "^1.0.1",
-    "gulp-connect": "^2.0.6",
-    "gulp-jsmin": "^0.1.4",
-    "gulp-minify-css": "^0.3.10",
-    "gulp-rename": "^1.2.0",
-    "gulp-sass": "^1.1.0"
-  },
-  "dependencies": {
-    "gulp-concat": "^2.4.1",
-    "gulp-header": "^1.2.2",
-    "imagemin-svgo": "^3.0.3"
-  }
+    "name": "iceberg-css-grid",
+    "version": "0.1.0",
+    "description": "An example module to illustrate the usage of a package.json",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/IlyaSuhodolskiy/iceberg-css-grid"
+     },
+    "devDependencies": {
+        "gulp": "^3.8.11",
+        "gulp-autoprefixer": "^1.0.1",
+        "gulp-jsmin": "^0.1.4",
+        "gulp-minify-css": "^0.3.10",
+        "gulp-rename": "^1.2.0",
+        "gulp-sass": "^1.1.0"
+    },
+    "dependencies": {
+        "gulp-concat": "^2.4.1",
+        "imagemin-svgo": "^3.0.3"
+    }
 }

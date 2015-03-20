@@ -1,7 +1,66 @@
 // Standart
-@import "variables";
-@import "mixins";
-@import "grid";
 
-// Add
+    @import "variables";
+    @import "mixins";
+    @import "grid";
 
+    *,
+    *:before,
+    *:after{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    html {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        font-family: sans-serif;
+    }
+
+    body {
+        font-family: $font-family-sans-serif;
+        font-weight: $font-weight;
+        font-size: $font-size-base;
+        color: $text-color;
+        background-color: $body-bg;
+    }
+
+    html,body{min-height: 100%; height: 100%;} 
+
+    .clr:before, .clr:after, 
+    .row:before, .row:after,
+    .container:before, .container:after, 
+    .container-fluid:before,.container-fluid:after{
+        display: table; content: ''; clear: both;
+    }
+
+    article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display: block;}
+
+    img{border: 0;} svg:not(:root) {overflow: hidden;}
+
+    button,input,optgroup,select,textarea {margin: 0; font: inherit; color: inherit; outline: none;}
+    button {overflow: visible;}
+
+    textarea {overflow: auto;}
+
+    a{color: $link-color; cursor: pointer;}
+
+    figure {margin: 0;} .circle {border-radius: 50%;}
+
+    .d_n{display: none;}
+
+    .text-left {text-align: left;}
+    .text-right {text-align: right;}
+    .text-center {text-align: center;} 
+    .text-just {text-align: justify;}
+    .text-upp {text-transform: uppercase;}
+
+    .fl-right{float: right;} 
+    .fl-left{float: left;}
+
+// App
+	
+	@import "app/button";

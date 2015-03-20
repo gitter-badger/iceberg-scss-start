@@ -1,0 +1,16 @@
+/* button */
+
+.btn{ 
+	display: inline-block; border: 0; cursor: pointer; font-size: 13px; padding: 13px 30px; 
+	transition: background .3s; margin-right: 15px; border-radius: 3px;
+}
+
+.btn-success{background: $brand-success; color: #fff;
+    &:hover{background: darken($brand-success, 3%);}
+}
+.btn-info{background: $brand-info; color: #fff;
+    &:hover{background: darken($brand-info, 3%);}
+}
+.btn-warning{background: $brand-danger; color: #fff;
+    &:hover{background: darken($brand-danger, 3%);}
+}
