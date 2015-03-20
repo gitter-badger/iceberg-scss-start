@@ -17,9 +17,9 @@
 7. imagemin-svgo
 
 
-## CSS(SCSS) (12 columns)
+## CSS(SCSS) 
 
-### Grid
+### Grid (12 columns)
 1. phones (<768px) ``` .col-ph-* ```
 2. tablets (≥768px) ``` .col-td-* ```
 3. desktops (≥992px) ``` .col-dt-* ```

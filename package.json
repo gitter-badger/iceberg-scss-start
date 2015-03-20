@@ -1,10 +1,10 @@
 {
-    "name": "iceberg-css-grid",
+    "name": "iceberg-scss-start",
     "version": "0.1.0",
     "description": "An example module to illustrate the usage of a package.json",
     "repository": {
         "type": "git",
-        "url": "https://github.com/IlyaSuhodolskiy/iceberg-css-grid"
+        "url": "https://github.com/IlyaSuhodolskiy/iceberg-scss-start"
      },
     "devDependencies": {
         "gulp": "^3.8.11",
