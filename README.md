@@ -1,5 +1,7 @@
 # ICEBERG (harvesting project)
 
+[![Join the chat at https://gitter.im/IlyaSuhodolskiy/iceberg-scss-start](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/IlyaSuhodolskiy/iceberg-scss-start?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Install and start
 
 1. ```$ npm install```
